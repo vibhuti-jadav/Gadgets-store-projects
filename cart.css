@@ -43,7 +43,7 @@
 }
 
 .container{
-    border: 1px solid red;
+  
     max-width: 1320px;
     height: 700px;
     margin: auto;
@@ -55,17 +55,21 @@
 
 
 .box-carts{
-    border: 1px solid green;
+    border-bottom: 1px solid gainsboro;
     height: 95px;
-    width: 1200px;
+ 
     margin-top: 30px;
     margin-left: 100px;
     display: flex;
    
 }
 
+.box-carts:last-child{
+    border-bottom: none;
+}
+
 .box-item{
-    border: 1px solid blue;
+  
     height: 55px;
     display: inline-block;
     width:20%;
@@ -86,13 +90,14 @@ a{
 }
 
 .box-mains{
-    border: 1px solid blue;
+
     height: 90px;
     display: inline-block;
     width:20%;
  
     padding: 10px;
     display: flex;
+
 
 }
 
@@ -108,12 +113,7 @@ a{
     margin-top: 9px;
 }
 
-.name{
-    width: 100%;
-  
-   
-    
-}
+
 
 .price{
     width: 100%;
@@ -126,3 +126,135 @@ h4{
     padding: 4px;
 }
 
+.box-qunti{
+    border: 1px solid gainsboro;
+    height: 30px;
+    width: 110px;
+    margin-top: 15px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 2;
+}
+
+.pc{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.ri-delete-bin-5-line{
+    margin-top: 15px;
+    margin-left: 25px;
+    color: red;
+    font-size: 20px;
+}
+
+.box-button{
+   
+    width: 50%;
+}
+
+.continue{
+    width: 188px;
+    height: 36px;
+    border: 1px solid orange;
+    background-color: white;
+    color: orange;
+ 
+}
+.continue:hover{
+        background-color: #eb974e;
+        color: white;
+         
+}
+
+.checkout{
+    width: 188px;
+    height: 36px;
+    border: none;
+    background-color:#eb974e;
+    color: white;
+    margin-left: 48%;
+ 
+}
+
+
+.bg-foot{
+    background-color: #364153;
+}
+
+.container8{
+   
+    max-width:1320px ;
+
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.box-footer{
+    width: 325px;
+    
+    padding: 20px;
+   
+}
+
+.box-fr{
+
+   
+    width: 250px;
+    margin-top: 50px;
+
+    
+}
+
+.whi{
+    color: white;
+    margin: 0%;
+    padding: 9px;
+    font-family: 'Lato', sans-serif;
+}
+
+.m{
+    text-align: start;
+    color: white;
+    padding: 2px;
+}
+
+li{
+    padding: 5px;
+}
+
+.g{
+    background-color: #364153;
+    border: 1px solid white;
+}
+
+
+.bg-foot{
+    background-color: #364153;
+}
+
+.last{
+    padding: 25px;
+      height: 20px;
+      width: 100%;
+      background-color: white;
+      color: orange;
+      border-radius: 0%;
+      margin-top: 10px;
+     justify-content: center;
+  }
+  
+  .last:hover{
+          background-color: aliceblue;
+          color: orange;
+  }
+
+  .em{
+    height: 43px;
+    width: 249px;
+    border: 1px solid white;
+    background-color: #364153;
+  }
