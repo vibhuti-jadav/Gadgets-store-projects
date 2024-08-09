@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+  
+
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.logo{
+    width: 60%;
+    border-bottom: 1px solid gainsboro;
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    text-align: end;
+    line-height: 3;
+}
+
+
+.nav{
+    width: 40%;
+  
+    font-size: 25px;
+    line-height: 3;
+    text-align: center;
+   
+}
+
+.box-theme{
+
+    width: 100%;
+    
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    border: 1px solid red;
+    max-width: 1320px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+}
+
+
+.box-carts{
+    border: 1px solid green;
+    height: 95px;
+    width: 1200px;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+   
+}
+
+.box-item{
+    border: 1px solid blue;
+    height: 55px;
+    display: inline-block;
+    width:20%;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+
+   
+  
+}
+
+.box-item:first-child{
+    width: 60%;
+}
+
+a{
+    font-family: 'Lato', sans-serif;
+}
+
+.box-mains{
+    border: 1px solid blue;
+    height: 90px;
+    display: inline-block;
+    width:20%;
+ 
+    padding: 10px;
+    display: flex;
+
+}
+
+.box-mains:first-child{
+    width: 60%;
+}
+
+.box-deatil{
+  
+    width: 20%;
+    height: 100%;
+    margin-left: 5px;
+    margin-top: 9px;
+}
+
+.name{
+    width: 100%;
+  
+   
+    
+}
+
+.price{
+    width: 100%;
+ 
+    
+}
+
+h4{
+    color: orange;
+    padding: 4px;
+}
+

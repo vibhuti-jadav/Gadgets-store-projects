@@ -1,0 +1,405 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.navbar{
+    width: 100%;
+
+  
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.logo{
+    margin-left: 40%;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.nav{
+   
+   
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    text-align: end;
+    padding: 25px;
+}
+
+.containerhome{
+ 
+    max-width: 1320px;
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    
+    
+   
+    display: inline-block;
+    padding: 10px;
+    margin-top: 45px;
+}
+
+.color{
+    color: orange;
+}
+
+.containertrack{
+    max-width: 1320px;
+   
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dark{
+    font-family: "Roboto Slab", serif;
+}
+u{
+    text-decoration-color: orange;
+   text-decoration-thickness: 3px;
+}
+
+.box-add{
+
+
+    font-family: "Roboto Slab", serif;
+   
+    margin-top: 35px;
+    padding: 20px;
+    margin-left: 30%;
+   
+}
+
+.containerdetail{
+
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-shiping{
+    border-right: 1px solid gainsboro;
+    height: 100%;
+    max-width:800px ;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.box-shiping label{
+    padding-bottom:10px ;
+    font-family: arial;
+}
+
+
+
+h4{
+    font-family: "Slabo 27px", serif;
+    padding: 35px;
+  
+}
+
+.main-box-name{
+   
+    display: flex;
+    flex-wrap: wrap ;
+    padding-bottom: 20px;
+}
+
+.box-name{
+    display:inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    
+    max-width: 380px;
+}
+input{
+    width: 350px;
+    height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-div{
+   
+    margin-top: 15px;
+    
+}
+
+.ip{
+    width: 735px;
+    height: 35px;
+}
+
+.ar{
+    width: 735px;
+    height: 98px;
+}
+
+.box-city{
+    display:inline-block;
+    margin-top: 15px;
+    width: 380px;
+}
+
+.box-con{
+    display:inline-block;
+   
+}
+
+a{
+    line-height: 2.5;
+}
+
+.box-state{
+    display:inline-block;
+    width: 380px;
+    margin-top: 20px;
+}
+
+.box-code{
+    display:inline-block;
+}
+
+.input{
+    width: 350px;
+    height: 35px;
+}
+
+
+
+.check{
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+}
+
+.conti{
+        width: 127px;
+        height: 41px;
+       background-color: #eb974e;
+        color:white;
+        border: none;
+        margin-top: 25px;
+        margin-left: 80%;
+       
+}
+
+.conti:hover{
+    background-color: darkorange;
+}
+
+.box-summary{
+    
+   
+    width:515px;
+   
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.box-stiki{
+   
+    display: flex;
+    flex-wrap: wrap;
+   
+    width: 100%;
+    margin-top: 90px;
+    
+}
+
+.box-apply{
+
+      position: sticky;
+      top:90px; 
+      height: fit-content;
+    width: 100%;
+    padding: 20px;
+   
+}
+
+.box-order{
+ 
+   
+ 
+    padding: 10px;
+    margin-top: 20px;
+   
+}
+
+.cc{
+    max-width: 250px;
+    height: 35px;
+    padding: 10px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.app{
+    width: 54px;
+    height: 36px;
+
+    margin-left: 2%;
+    background-color: #eb974e;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.app:hover{
+     background-color: darkorange;
+}
+
+
+
+
+
+h3{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.pri{
+    margin-left: 30%;
+}
+
+.price{
+    margin-left: 49%;
+}
+
+.bg-foot{
+    background-color: #364153;
+}
+
+.container8{
+   
+    max-width:1320px ;
+
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.box-footer{
+    width: 325px;
+    
+    padding: 20px;
+   
+}
+
+.box-fr{
+
+   
+    width: 250px;
+    margin-top: 50px;
+
+    
+}
+
+.whi{
+    color: white;
+    margin: 0%;
+    padding: 9px;
+    font-family: 'Lato', sans-serif;
+}
+
+.m{
+    text-align: start;
+    color: white;
+    padding: 2px;
+}
+
+li{
+    padding: 5px;
+}
+
+.g{
+    background-color: #364153;
+    border: 1px solid white;
+}
+
+
+.bg-foot{
+    background-color: #364153;
+}
+
+.container8{
+   
+    max-width:1320px ;
+
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.box-footer{
+    width: 325px;
+ 
+    padding: 20px;
+   
+}
+
+.box-fr{
+
+   
+    width: 250px;
+    margin-top: 50px;
+
+    
+}
+
+.whi{
+    color: white;
+    margin: 0%;
+    padding: 9px;
+    font-family: 'Lato', sans-serif;
+}
+
+.m{
+    text-align: start;
+    color: white;
+    padding: 2px;
+}
+
+li{
+    padding: 5px;
+}
+
+.g{
+    background-color: #364153;
+    border: 1px solid white;
+}
+
+.last{
+    padding: 25px;
+      height: 20px;
+      width: 100%;
+      background-color: white;
+      color: orange;
+      border-radius: 0%;
+      margin-top: 10px;
+     justify-content: center;
+  }
+  
+  .last:hover{
+          background-color: aliceblue;
+          color: orange;
+  }
+
+  .em{
+    height: 43px;
+    width: 249px;
+    border: 1px solid white;
+    background-color: #364153;
+  }
