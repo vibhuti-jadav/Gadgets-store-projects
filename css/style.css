@@ -92,7 +92,7 @@
 .slider{
     width: 400%;
     display: flex;
-    animation: slider 8s 2s ease-in;
+    animation: slider 10s 1s infinite ease-in-out;
     height: 100%;
     
     
@@ -100,37 +100,45 @@
 
 @keyframes slider{
     0%{
-        margin-left: 0px;
+        margin-left: 0%;
     }
-    25%{
-        margin-left:-1000px;
+    10%{
+        margin-left: -100%;
+    }
+    30%{
+        margin-left: -100%;
+    }
+    40%{
+        margin-left: -200%;
     }
     50%{
-        margin-left:-2000px;
+        margin-left: -200%;
     }
-    75%{
-        margin-left:-3000px;
+    60%{
+        margin-left: -300%;
+    }
+    80%{
+        margin-left: -300%;
+    }
+    90%{
+        margin-left: -400%;
     }
     100%{
-        margin-left:0px;
+        margin-left: -400%;
     }
 }
-
 
 
 .boxs{
     width: 100%;
-
     background-repeat:no-repeat;
     background-size:cover;
-
-  
 }
 
-.a{
- background-image: url(img/1.jpg);
-background-position: center;
 
+.a{
+ background-image: linear-gradient(to bottom, rgba(234, 119, 4, 0.3), rgba(234, 119, 4, 0.3)), url(https://static.zohocdn.com/sites/stock-images/images/zpstock-image-933.jpg);
+background-position: center;
 }
 
 .b{
@@ -147,7 +155,7 @@ background-position: center;
 }
 
 .d{
-    background-image: url(img/4.jpg);
+    background-image:linear-gradient(to bottom, rgba(70, 70, 70, 0.57), rgba(70, 70, 70, 0.57)), url(https://static.zohocdn.com/sites/stock-images/images/zpstock-image-936.jpg);
     background-position:top;
 }
 
