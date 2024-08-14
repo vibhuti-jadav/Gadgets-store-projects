@@ -39,9 +39,6 @@
     padding: 2%;
 }
 
-
-
-
 .container{
     position: sticky ;
     background-color: white;
@@ -51,6 +48,10 @@
     display: flex;
     justify-content: center;
  
+}
+
+.line:hover{
+    border-top: 2px solid orange;
 }
 
 .container1{
@@ -138,25 +139,26 @@
 
 
 .a{
- background-image: linear-gradient(to bottom, rgba(234, 119, 4, 0.3), rgba(234, 119, 4, 0.3)), url(https://static.zohocdn.com/sites/stock-images/images/zpstock-image-933.jpg);
+ background-image: linear-gradient(to bottom, rgba(234, 119, 4, 0.3), rgba(234, 119, 4, 0.3)), url(../img/1.jpg);
 background-position: center;
+
 }
 
 .b{
-   background-image: linear-gradient(to bottom, rgba(56, 196, 202, 0.61), rgba(56, 196, 202, 0.61)), url(https://static.zohocdn.com/sites/stock-images/images/zpstock-image-934.jpg);
+   background-image: linear-gradient(to bottom, rgba(56, 196, 202, 0.61), rgba(56, 196, 202, 0.61)), url(../img/2.jpg);
     background-position: left;
  
  
 }
 
 .c{
-    background-image: linear-gradient(to bottom, rgba(213, 96, 115, 0.88), rgba(255, 255, 143, 0.5)), url(https://static.zohocdn.com/sites/stock-images/images/zpstock-image-935.jpg);
+    background-image: linear-gradient(to bottom, rgba(213, 96, 115, 0.88), rgba(255, 255, 143, 0.5)), url(../img/3.jpg);
     background-position: left;
       
 }
 
 .d{
-    background-image:linear-gradient(to bottom, rgba(70, 70, 70, 0.57), rgba(70, 70, 70, 0.57)), url(https://static.zohocdn.com/sites/stock-images/images/zpstock-image-936.jpg);
+    background-image:linear-gradient(to bottom, rgba(70, 70, 70, 0.57), rgba(70, 70, 70, 0.57)), url(../img/4.jpg);
     background-position:top;
 }
 
@@ -392,6 +394,10 @@ p{
 
    padding: 1%;
   
+}
+
+.item-box img{
+    width: 100%;
 }
 
 .write-box{

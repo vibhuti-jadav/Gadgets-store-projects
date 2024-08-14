@@ -1,0 +1,12 @@
+@media(max-width:767px){
+    .w-1{
+        width: 100%;
+    }
+}
+
+@media(max-width:767px){
+    .w-2{
+        width: 100%;
+        object-position:center;
+    }
+}
