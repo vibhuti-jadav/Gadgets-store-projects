@@ -10,3 +10,13 @@
         object-position:center;
     }
 }
+
+@media(max-width:991px){
+    .w-lg{
+        width: 100%;
+    }
+
+    .all input{
+        width: 100%;
+    }
+}
